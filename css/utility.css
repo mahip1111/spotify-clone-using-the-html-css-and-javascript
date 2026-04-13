@@ -1,0 +1,71 @@
+/* NOTE: Utility classes are those classes which you can use anywhere in this project so here the below given classes will by used many times in this prject */
+
+/* we use the utiltiy classes to bring the homeginity in the page */
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+/* see humari bahut si svg black hai and humara background bhi black hai therofore to make the opposite color of the svg we use the fileter: invert(1) and isa humna class ma dal diya taki jahan use padha waha waha direct use kar saka */
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* Apply custom styling to ALL scrollbars on the page */
+
+/* ----------- WebKit Browsers (Chrome, Edge, Safari) ----------- */
+
+/* Styles the entire scrollbar (width/size) */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Styles the draggable part (the thumb you move up/down) */
+::-webkit-scrollbar-thumb {
+  background-color: #333; /* Dark grey thumb */
+  border-radius: 6px;     /* Rounded edges for smooth look */
+}
+
+/* Styles the track (background behind the thumb) */
+::-webkit-scrollbar-track {
+  background-color: #222; /* Dark background track */
+}
+
+
+/* ----------- Firefox ----------- */
+
+/* 
+   Firefox uses a simpler property:
+   First value  → thumb color
+   Second value → track color
+*/
+ /* scrollbar-color: #333 #222; */
